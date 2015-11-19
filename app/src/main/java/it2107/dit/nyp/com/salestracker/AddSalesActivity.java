@@ -46,7 +46,7 @@ public class AddSalesActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                displayString("Clicked");
+
                String itemName =etItemName.getText().toString();
                 double costPrice = Double.parseDouble(etItemCostPrice.getText().toString());
                 double sellingPrice = Double.parseDouble(etItemSellingPrice.getText().toString());
@@ -55,6 +55,7 @@ public class AddSalesActivity extends Activity {
                 boolean staffRate =true;
 
                 s= new Sale(staffRate,itemName, costPrice, sellingPrice, quantitySold,dateSold);
+                displayString(s.toString());
             }
         });
 
