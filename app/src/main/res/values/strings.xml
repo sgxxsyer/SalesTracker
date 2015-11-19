@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SalesTracker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_sales">AddSalesActivity</string>
+</resources>
